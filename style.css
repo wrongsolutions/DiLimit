@@ -271,3 +271,205 @@ nav input{
   font-size: 45px;
   font-weight: 600;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  background-color: #eee;
+}
+
+.hero-image img {
+  height: 400px;
+}
+
+.hero-content {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.features {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.features h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.feature {
+  width: 30%;
+  display: inline-block;
+  margin: 20px;
+}
+
+.feature img {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 18px;
+}
+
+.popular-courses {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #eee;
+}
+
+.popular-courses h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.course {
+  width: 30%;
+  display: inline-block;
+  margin: 20px;
+}
+
+.course img {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.course h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.course p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.testimonials {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  width: 40%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.testimonial p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.testimonial .author {
+  font-weight: bold;
+  font-style: italic;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .hero-image img {
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .feature {
+    width: 100%;
+  }
+
+  .course {
+    width: 100%;
+  }
+}
